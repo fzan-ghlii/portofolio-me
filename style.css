@@ -274,7 +274,8 @@ input:checked + .slider:before { transform: translateX(26px); }
     border-radius: 10px; 
     box-shadow: var(--shadow); 
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transisi efek */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    aspect-ratio: 16 / 9; /* Tambahkan baris ini */
 }
 
 /* Efek Timbul Saat Hover */
